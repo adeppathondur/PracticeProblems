@@ -13,6 +13,7 @@ public class LinkedList {
         }
     }
 
+
     public static LinkedList insert(LinkedList list, int data) {
         Node new_node = new Node(data)
         new_node.next = null
@@ -64,7 +65,6 @@ public class LinkedList {
         list = insert(list, 6);
         list = insert(list, 7);
         list = insert(list, 8);
-
     }
 
 }
